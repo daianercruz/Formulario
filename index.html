@@ -9,5 +9,61 @@
     <title> Formulário PET </title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="icon" href="icone.png">
 </head>
+
+<body>
+    <div class="menu">
+ 
+        <h1 id="titulo"> Adote Pet 🐾 </h1>
+        <p id="descricao">
+        Formulario de adoção
+        </p>
+        
+         <div class="main-content">
+        <div class="form-content">
+          <form id="survey-form">
+            <label for="name" id="name-label">Nome</label>
+            <input id="name" type="text" required placeholder="Coloque seu nome" />
+            <label for="email" id="email-label">Email</label>
+             <input id="email" type="email" required placeholder="Coloque seu email" />
+            <label for="number" id="number-label">Quantos animais você tem no momento?</label>
+             <input id="number" type="number" min="1" max="10" required placeholder="1 a 10" />
+            
+            <label for="dropdown">Quanto é sua renda?</label>
+            <select id="dropdown">
+              <option value="0amil">R$ 0 a R$ 1000</option>
+              <option value="miladoismil">R$ 1000 a R$ 2000</option>
+              <option value="doismilacincomil">R$ 2000 a R$ 5000</option>
+              <option value="preferenaodizer">Prefere não responder</option>
+              <option value="outros">Outros</option>
+            </select>
+            
+            <fieldset>
+              <legend>Recomendaria a feira de adoção para outro amigo ?</legend>
+              <input type="radio" name="action" checked id="sim" value="sim" /><label for="sim">Sim</label><br />
+              <input type="radio" name="action" id="talvez" value="maybe"  /><label for="talvez">Talvez</label><br />
+              <input type="radio" name="action" id="nao" value="nao" /><label for="nao">Não</label><br />
+            </fieldset>
+      
+              <p>Qual animal você pretende adotar?</p>
+              <input type="checkbox" id="gato" name="gato" value="gato">
+              <label for="video-length">Gato</label><br>
+              <input type="checkbox" id="cachorro" name="cachorro" value="cachorro">
+              <label for="cachorro">Cachorro</label><br>
+              <input type="checkbox" id="todos" name="todos" value="todos">
+              <label for="todos">Todos</label><br>
+            
+            
+            <label for="comentario">Algum comentario ou sugestão?</label>
+            <textarea rows="4" cols="50" id="comentario">Coloque sua sugestão</textarea>
+            
+            <button type="Enviar" id="Enviar">Enviar</button>
+          </form>
+        </div>
+        </div>
+      </div>
+      
+
+
+</body>
