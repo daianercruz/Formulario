@@ -20,6 +20,6 @@ Pagina Index contém:
 - Quantidade de animais que já possui
 - Renda
 - Recomendação da feira 
-- Pretençãod e quantos animais
+- Pretenção de quantos animais
 - E campo de sugestão
 
