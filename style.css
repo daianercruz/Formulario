@@ -32,7 +32,7 @@ body {
 }
 
 .main-content {
-    background-color: #fff2e6;
+    background-color: #f8f0f0;
       max-width: 650px;
       display: flex;
       flex-direction: column;
@@ -42,6 +42,56 @@ body {
       border-radius: 5px;
       z-index: 2;
       position: relative;
-        box-shadow: 0px -1px 10px 5px orange;
+        box-shadow: 0px -1px 10px 5px rgb(107, 50, 182);
+  }
+  
+  #name, #email, #number, #dropdown, #comentario {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: linear-gradient
+		180deg,
+		rgba(7, 7, 14, 1) 25%,
+		rgba(21, 25, 85, 1) 75%,
+		rgba(44, 33, 103, 255) 99%;
+
+        border-radius:5px;
+        font-size:25px;
+        margin-bottom:40px;
+}
+label[for=name], 
+label[for=email],
+label[for=number],
+label[for=dropdown],
+label[for=comentario] {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#gato, #cachorro,#todos,#Coelho,
+fieldset input {
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#comentario {
+    min-height: 180px;
+    margin-top: 30px
+  }
+
+  #Enviar {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #af6b28;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0;
+    color:  White;
+    font-size: 20px;
   }
   
